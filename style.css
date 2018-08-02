@@ -1,7 +1,14 @@
 body {
-    background:DimGrey;
-    color: white ;
+    background:white;
+    color: #ababab;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .center {
@@ -12,5 +19,9 @@ body {
 }
 
 a {
-    color: white;
+    font-size: .8em;
+    color: #ababab;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
