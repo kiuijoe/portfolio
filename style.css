@@ -1,6 +1,5 @@
 html, body {
     /* for centering */
-    height: 100%;
     margin: 0 auto;
 }
 
@@ -10,15 +9,14 @@ body {
     text-align: center;
     font-family: 'VT323', monospace;
     font-size: 24px;
-    /* for centering */
+
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 a {
-    text-decoration: none;
-    text-transform: none;
     color: #746b5a;
 }
 
