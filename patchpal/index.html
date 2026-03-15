@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="PatchPal for macOS">
-        <meta name="keywords" content="Apps,Games,Photos,Developer,Photographer">
+        <meta name="keywords" content="PatchPal,App,CVE,NVD,Mac,macOS">
         <meta name="author" content="Joe Pratt">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PatchPal</title>
@@ -12,14 +12,23 @@
         <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div>
+        <div style="max-width:640px; margin: 5px; text-align:center;">
             <br>
-            <img src="../images/AppIcon-iOS-Default-256x256@1x.png" alt="PatchPal icon" width="128" height="128">
-            <h2 class="typewriter">PatchPal</h2>
-            <p>A macOS app for tracking CVEs from the National Vulnerability Database (NVD).</p>
-            <p>For security analysts, sys admins, and devs who need a clear view of vulnerabilities affecting the software they care about.</p>
-            <p>Save products using their CPE identifiers, monitor newly published CVEs, and quickly triage vulnerabilities.</p>
-            <img src="../images/patchpal_screenshot.png" alt="PatchPal screenshot" style="max-width:512px; width:100%;">
+            <div style="display:flex; align-items:center; justify-content:center; gap:16px">
+                <img src="../images/AppIcon-iOS-Default-256x256@1x.png" alt="PatchPal icon" width="128" height="128">
+                <div style="display:flex; flex-direction:column; align-items:flex-start">
+                    <h2 style="margin:0">PatchPal</h2>
+                    <span style="font-size:1rem">CVE tracker for Mac</span>
+                </div>
+            </div>
+            <p>A native macOS app for tracking CVEs from the National Vulnerability Database (NVD).</p>
+            <img src="../images/patchpal_screenshot.png" alt="PatchPal screenshot" style="max-width:640px; width:100%;">
+            <p>For devs, sysadmins, and security analysts needing a clear view of vulnerabilities affecting their software stack.</p>
+            <ul>
+                <li>Save products using their CPE identifiers</li>
+                <li>Monitor newly published CVEs</li>
+                <li>Quickly triage vulnerabilities</li>
+            </ul>
             <p>PatchPal is built for manual tracking and analysis, avoiding system scanning and privileged access.</p>
             <p>Lightweight and built natively with SwiftUI. Designed to be efficient and get out of the way.</p>
             <p style="color:red;">Preview Available Soon (macOS 26)</p>
